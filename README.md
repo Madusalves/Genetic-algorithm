@@ -6,7 +6,7 @@ relying on biologically inspired operators such as mutation, crossover and selec
 applications include optimizing decision trees for better performance, solving sudoku puzzles,[2] hyperparameter
 optimization, causal inference,[3] etc.
 
-https://en.wikipedia.org/wiki/Genetic_algorithm
-https://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf
+# https://en.wikipedia.org/wiki/Genetic_algorithm
+# https://www.boente.eti.br/fuzzy/ebook-fuzzy-mitchell.pdf
 
 ![image](https://github.com/Madusalves/Genetic-algorithm/assets/111824481/e710ef7a-d806-4d46-8601-dbe7fb1ab04e)
