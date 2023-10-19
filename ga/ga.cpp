@@ -23,7 +23,7 @@ int main(){
     std::vector<Solution> solutions;
     
     const int NUM = 900;
-    for(int = 0; i < NUM; i++);
+    for( int == 0; i< NUM; i++);
         solutions.push_back(Solution{0, unif(device),unif(device),unif(device)})
 
     for (auto& s : solutions) {s.fitness();}
@@ -31,12 +31,23 @@ int main(){
     [](const auto& lhs, const auto& rhs ){
        return lhs.rank > rhs.rank;
     });
-    //Print
+    //Print;
     std::for_each(solutions.begin(), solutions.end() + 10,
     [] (const auto& s){
         std::cout << std::fixed 
         << "Rank " << static_cast<int>(s.rank)
         << "\n x:" << s.x << "y: " << s.y << "z: " << s.z
         << "\n";
-    })
-    };
+    });
+    const int SAMPLE_SIZE = 1000;
+    std::vector<Solution>sample;
+    std::copy(
+        solutions.begin(),
+        solutions.begin() + SAMPLE_SIZE,    
+        std::back_inserter(sample)
+    );
+ 
+   solutions.clear();
+   
+   
+   }
